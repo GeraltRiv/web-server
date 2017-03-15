@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\zlib\;CMake Files\libevent\;CMake Files\libevent\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 example64"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 example64/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 minigzip64"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib"/>
+					<Add directory="/home/jack/CLionProjects/WebServer"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 minigzip64/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib/zconf.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/adler32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/compress.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/crc32.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/crc32.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/deflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/deflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/gzclose.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/gzguts.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/gzlib.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/gzread.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/gzwrite.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/infback.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inffast.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inffast.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inffixed.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inflate.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inflate.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inftrees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/inftrees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/test/example.c">
+			<Option target="example"/>
+			<Option target="example64"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/test/minigzip.c">
+			<Option target="minigzip"/>
+			<Option target="minigzip64"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/trees.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/trees.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/uncompr.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zlib.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zutil.c">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zutil.h">
+			<Option target="zlib"/>
+			<Option target="zlibstatic"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckWaitpidSupportWNOWAIT.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigBuildTree.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckWaitpidSupportWNOWAIT.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigBuildTree.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

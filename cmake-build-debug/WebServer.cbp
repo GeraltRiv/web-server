@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WebServer/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/WebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 WebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/RequestHandler.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/RequestHandler.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/ServerMain.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/ServerMain.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Connection.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Connection.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Header.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Reply.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Reply.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/model/Request.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/utils/ConnectionManager.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/utils/ConnectionManager.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/utils/RequestParser.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/com.jack.server/utils/RequestParser.h">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/main.cpp">
+			<Option target="WebServer"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

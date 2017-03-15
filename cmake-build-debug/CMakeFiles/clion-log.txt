@@ -1,0 +1,15 @@
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jack/CLionProjects/WebServer
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   chrono
+--   date_time
+--   atomic
+-- Boost_INCLUDE_DIRS: /usr/include
+-- Boost_LIBRARIES: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so
+-- Boost_VERSION: 105800
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jack/CLionProjects/WebServer/cmake-build-debug

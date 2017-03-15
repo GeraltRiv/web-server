@@ -1,0 +1,2343 @@
+The system is: Linux - 4.2.0-42-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7de61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7de61.dir/build.make CMakeFiles/cmTC_7de61.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7de61.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7de61.dir/testCCompiler.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7de61
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de61.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7de61.dir/testCCompiler.c.o  -o cmTC_7de61 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a09a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a09a.dir/build.make CMakeFiles/cmTC_8a09a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o   -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8a09a
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a09a.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o  -o cmTC_8a09a  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a09a' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFNeJRS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8a09a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8a09a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8a09a.dir/build.make CMakeFiles/cmTC_8a09a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o   -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8a09a]
+  ignore line: [/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a09a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o  -o cmTC_8a09a  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8a09a' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFNeJRS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8a09a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFNeJRS.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8a09a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_8a09a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8676/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8676.dir/build.make CMakeFiles/cmTC_b8676.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8676.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_b8676.dir/feature_tests.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b8676
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8676.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b8676.dir/feature_tests.c.o  -o cmTC_b8676 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9783/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9783.dir/build.make CMakeFiles/cmTC_d9783.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9783.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_d9783.dir/feature_tests.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d9783
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9783.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d9783.dir/feature_tests.c.o  -o cmTC_d9783 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0073f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0073f.dir/build.make CMakeFiles/cmTC_0073f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0073f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0073f.dir/feature_tests.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0073f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0073f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0073f.dir/feature_tests.c.o  -o cmTC_0073f 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cc12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cc12.dir/build.make CMakeFiles/cmTC_6cc12.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6cc12.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_6cc12.dir/testCXXCompiler.cxx.o -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6cc12
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cc12.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_6cc12.dir/testCXXCompiler.cxx.o  -o cmTC_6cc12 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6388/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6388.dir/build.make CMakeFiles/cmTC_b6388.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b6388
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6388.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b6388  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6388' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5hnAdH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b6388 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b6388/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b6388.dir/build.make CMakeFiles/cmTC_b6388.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b6388]
+  ignore line: [/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6388.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b6388  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b6388' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5hnAdH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b6388 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5hnAdH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6388] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_b6388.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2949/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2949.dir/build.make CMakeFiles/cmTC_f2949.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2949.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f2949.dir/feature_tests.cxx.o -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f2949
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2949.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f2949.dir/feature_tests.cxx.o  -o cmTC_f2949 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_593f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_593f7.dir/build.make CMakeFiles/cmTC_593f7.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_593f7.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_593f7.dir/feature_tests.cxx.o -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_593f7
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_593f7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_593f7.dir/feature_tests.cxx.o  -o cmTC_593f7 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b13c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b13c8.dir/build.make CMakeFiles/cmTC_b13c8.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b13c8.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_b13c8.dir/feature_tests.cxx.o -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b13c8
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13c8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b13c8.dir/feature_tests.cxx.o  -o cmTC_b13c8 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test check_c_compiler_flag__Wall succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_100c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_100c7.dir/build.make CMakeFiles/cmTC_100c7.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_100c7.dir/src.c.o
+/usr/bin/cc    -Dcheck_c_compiler_flag__Wall   -Wall -o CMakeFiles/cmTC_100c7.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_100c7
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_100c7.dir/link.txt --verbose=1
+/usr/bin/cc   -Dcheck_c_compiler_flag__Wall    CMakeFiles/cmTC_100c7.dir/src.c.o  -o cmTC_100c7 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__Wswitch succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2881f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2881f.dir/build.make CMakeFiles/cmTC_2881f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2881f.dir/src.c.o
+/usr/bin/cc    -Wall -Dcheck_c_compiler_flag__Wswitch   -Wswitch -o CMakeFiles/cmTC_2881f.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2881f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2881f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Dcheck_c_compiler_flag__Wswitch    CMakeFiles/cmTC_2881f.dir/src.c.o  -o cmTC_2881f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_c_compiler_flag__fno_strict_aliasing succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e928/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e928.dir/build.make CMakeFiles/cmTC_5e928.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e928.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -Dcheck_c_compiler_flag__fno_strict_aliasing   -fno-strict-aliasing -o CMakeFiles/cmTC_5e928.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e928
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e928.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -Dcheck_c_compiler_flag__fno_strict_aliasing    CMakeFiles/cmTC_5e928.dir/src.c.o  -o cmTC_5e928 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __GNU_LIBRARY__ exist passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14a4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14a4f.dir/build.make CMakeFiles/cmTC_14a4f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14a4f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_14a4f.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14a4f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14a4f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_14a4f.dir/CheckSymbolExists.c.o  -o cmTC_14a4f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GNU_LIBRARY__
+  return ((int*)(&__GNU_LIBRARY__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73f3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73f3d.dir/build.make CMakeFiles/cmTC_73f3d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73f3d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_73f3d.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73f3d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f3d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_73f3d.dir/CheckIncludeFile.c.o  -o cmTC_73f3d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6337/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6337.dir/build.make CMakeFiles/cmTC_f6337.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6337.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f6337.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f6337
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6337.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f6337.dir/CheckIncludeFile.c.o  -o cmTC_f6337 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6eee0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6eee0.dir/build.make CMakeFiles/cmTC_6eee0.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6eee0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_6eee0.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6eee0
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eee0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_6eee0.dir/CheckIncludeFile.c.o  -o cmTC_6eee0 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1177b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1177b.dir/build.make CMakeFiles/cmTC_1177b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1177b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_1177b.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1177b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1177b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_1177b.dir/CheckIncludeFile.c.o  -o cmTC_1177b -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e198/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e198.dir/build.make CMakeFiles/cmTC_4e198.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e198.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_4e198.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4e198
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e198.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_4e198.dir/CheckIncludeFile.c.o  -o cmTC_4e198 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0582/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0582.dir/build.make CMakeFiles/cmTC_d0582.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0582.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d0582.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d0582
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0582.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_d0582.dir/CheckIncludeFile.c.o  -o cmTC_d0582 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file arpa/inet.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1e95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1e95.dir/build.make CMakeFiles/cmTC_e1e95.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1e95.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e1e95.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e1e95
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e95.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e1e95.dir/CheckIncludeFile.c.o  -o cmTC_e1e95 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3406/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3406.dir/build.make CMakeFiles/cmTC_a3406.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3406.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a3406.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3406
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3406.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a3406.dir/CheckIncludeFile.c.o  -o cmTC_a3406 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbb21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbb21.dir/build.make CMakeFiles/cmTC_bbb21.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbb21.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_bbb21.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bbb21
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb21.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_bbb21.dir/CheckIncludeFile.c.o  -o cmTC_bbb21 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21132/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21132.dir/build.make CMakeFiles/cmTC_21132.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21132.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_21132.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_21132
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21132.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_21132.dir/CheckIncludeFile.c.o  -o cmTC_21132 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file poll.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05652/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05652.dir/build.make CMakeFiles/cmTC_05652.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05652.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_05652.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05652
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05652.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_05652.dir/CheckIncludeFile.c.o  -o cmTC_05652 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d067/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d067.dir/build.make CMakeFiles/cmTC_5d067.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d067.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5d067.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d067
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d067.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5d067.dir/CheckIncludeFile.c.o  -o cmTC_5d067 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30095/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30095.dir/build.make CMakeFiles/cmTC_30095.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30095.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_30095.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30095
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30095.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_30095.dir/CheckIncludeFile.c.o  -o cmTC_30095 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24a26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24a26.dir/build.make CMakeFiles/cmTC_24a26.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24a26.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_24a26.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24a26
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a26.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_24a26.dir/CheckIncludeFile.c.o  -o cmTC_24a26 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3c5d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3c5d.dir/build.make CMakeFiles/cmTC_c3c5d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3c5d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c3c5d.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c3c5d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3c5d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_c3c5d.dir/CheckIncludeFile.c.o  -o cmTC_c3c5d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c68b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c68b.dir/build.make CMakeFiles/cmTC_0c68b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c68b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_0c68b.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0c68b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c68b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_0c68b.dir/CheckIncludeFile.c.o  -o cmTC_0c68b -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7ce7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7ce7.dir/build.make CMakeFiles/cmTC_e7ce7.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7ce7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e7ce7.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e7ce7
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ce7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e7ce7.dir/CheckIncludeFile.c.o  -o cmTC_e7ce7 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61fc6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61fc6.dir/build.make CMakeFiles/cmTC_61fc6.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61fc6
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61fc6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_61fc6.dir/CheckIncludeFile.c.o  -o cmTC_61fc6 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/epoll.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86b9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86b9a.dir/build.make CMakeFiles/cmTC_86b9a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86b9a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_86b9a.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_86b9a
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86b9a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_86b9a.dir/CheckIncludeFile.c.o  -o cmTC_86b9a -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/eventfd.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e06c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e06c3.dir/build.make CMakeFiles/cmTC_e06c3.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e06c3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e06c3.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e06c3
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e06c3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e06c3.dir/CheckIncludeFile.c.o  -o cmTC_e06c3 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61ba8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61ba8.dir/build.make CMakeFiles/cmTC_61ba8.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61ba8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_61ba8.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_61ba8
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ba8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_61ba8.dir/CheckIncludeFile.c.o  -o cmTC_61ba8 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d034e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d034e.dir/build.make CMakeFiles/cmTC_d034e.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d034e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d034e.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d034e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d034e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_d034e.dir/CheckIncludeFile.c.o  -o cmTC_d034e -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d7f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d7f5.dir/build.make CMakeFiles/cmTC_8d7f5.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d7f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8d7f5.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d7f5
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d7f5.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_8d7f5.dir/CheckIncludeFile.c.o  -o cmTC_8d7f5 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/queue.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a916d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a916d.dir/build.make CMakeFiles/cmTC_a916d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a916d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a916d.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a916d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a916d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a916d.dir/CheckIncludeFile.c.o  -o cmTC_a916d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/select.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae088/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae088.dir/build.make CMakeFiles/cmTC_ae088.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae088.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ae088.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ae088
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae088.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_ae088.dir/CheckIncludeFile.c.o  -o cmTC_ae088 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sendfile.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7166/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7166.dir/build.make CMakeFiles/cmTC_e7166.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7166.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e7166.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e7166
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7166.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e7166.dir/CheckIncludeFile.c.o  -o cmTC_e7166 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08e5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08e5b.dir/build.make CMakeFiles/cmTC_08e5b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08e5b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_08e5b.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_08e5b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08e5b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_08e5b.dir/CheckIncludeFile.c.o  -o cmTC_08e5b -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f42b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f42b6.dir/build.make CMakeFiles/cmTC_f42b6.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f42b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f42b6.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f42b6
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f42b6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f42b6.dir/CheckIncludeFile.c.o  -o cmTC_f42b6 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2be2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2be2d.dir/build.make CMakeFiles/cmTC_2be2d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2be2d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_2be2d.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2be2d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be2d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_2be2d.dir/CheckIncludeFile.c.o  -o cmTC_2be2d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_955ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_955ae.dir/build.make CMakeFiles/cmTC_955ae.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_955ae.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_955ae.dir/CheckIncludeFiles.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_955ae
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955ae.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_955ae.dir/CheckIncludeFiles.c.o  -o cmTC_955ae -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/tcp.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d8bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d8bf.dir/build.make CMakeFiles/cmTC_6d8bf.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d8bf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_6d8bf.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6d8bf
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d8bf.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_6d8bf.dir/CheckIncludeFile.c.o  -o cmTC_6d8bf -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7180/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7180.dir/build.make CMakeFiles/cmTC_d7180.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7180.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d7180.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7180
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7180.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_d7180.dir/CheckIncludeFile.c.o  -o cmTC_d7180 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62df1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62df1.dir/build.make CMakeFiles/cmTC_62df1.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62df1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_62df1.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62df1
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62df1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_62df1.dir/CheckIncludeFile.c.o  -o cmTC_62df1 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sysctl.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd247/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd247.dir/build.make CMakeFiles/cmTC_fd247.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd247.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_fd247.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fd247
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd247.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_fd247.dir/CheckIncludeFile.c.o  -o cmTC_fd247 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/timerfd.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad94b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad94b.dir/build.make CMakeFiles/cmTC_ad94b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad94b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ad94b.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ad94b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad94b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_ad94b.dir/CheckIncludeFile.c.o  -o cmTC_ad94b -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9de66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9de66.dir/build.make CMakeFiles/cmTC_9de66.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9de66.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9de66.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9de66
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9de66.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_9de66.dir/CheckIncludeFile.c.o  -o cmTC_9de66 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bebe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bebe0.dir/build.make CMakeFiles/cmTC_bebe0.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bebe0.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create   -o CMakeFiles/cmTC_bebe0.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_bebe0
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bebe0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create    CMakeFiles/cmTC_bebe0.dir/CheckFunctionExistsEx.c.o  -o cmTC_bebe0 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_ctl exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddd65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ddd65.dir/build.make CMakeFiles/cmTC_ddd65.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddd65.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_ctl   -o CMakeFiles/cmTC_ddd65.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ddd65
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd65.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_ctl    CMakeFiles/cmTC_ddd65.dir/CheckFunctionExistsEx.c.o  -o cmTC_ddd65 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function eventfd exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1905/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1905.dir/build.make CMakeFiles/cmTC_f1905.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1905.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=eventfd   -o CMakeFiles/cmTC_f1905.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f1905
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1905.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=eventfd    CMakeFiles/cmTC_f1905.dir/CheckFunctionExistsEx.c.o  -o cmTC_f1905 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1176f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1176f.dir/build.make CMakeFiles/cmTC_1176f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1176f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_1176f.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_1176f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1176f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_1176f.dir/CheckFunctionExistsEx.c.o  -o cmTC_1176f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2d5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2d5e.dir/build.make CMakeFiles/cmTC_d2d5e.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2d5e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_d2d5e.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d2d5e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2d5e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTC_d2d5e.dir/CheckFunctionExistsEx.c.o  -o cmTC_d2d5e -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getaddrinfo exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adfdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adfdb.dir/build.make CMakeFiles/cmTC_adfdb.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adfdb.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getaddrinfo   -o CMakeFiles/cmTC_adfdb.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_adfdb
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adfdb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getaddrinfo    CMakeFiles/cmTC_adfdb.dir/CheckFunctionExistsEx.c.o  -o cmTC_adfdb -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getnameinfo exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af176/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af176.dir/build.make CMakeFiles/cmTC_af176.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af176.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getnameinfo   -o CMakeFiles/cmTC_af176.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_af176
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af176.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getnameinfo    CMakeFiles/cmTC_af176.dir/CheckFunctionExistsEx.c.o  -o cmTC_af176 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ad33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ad33.dir/build.make CMakeFiles/cmTC_5ad33.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ad33.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_5ad33.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_5ad33
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ad33.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTC_5ad33.dir/CheckFunctionExistsEx.c.o  -o cmTC_5ad33 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getprotobynumber exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a841c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a841c.dir/build.make CMakeFiles/cmTC_a841c.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a841c.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getprotobynumber   -o CMakeFiles/cmTC_a841c.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a841c
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a841c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getprotobynumber    CMakeFiles/cmTC_a841c.dir/CheckFunctionExistsEx.c.o  -o cmTC_a841c -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getservbyname exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_812c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_812c4.dir/build.make CMakeFiles/cmTC_812c4.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_812c4.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getservbyname   -o CMakeFiles/cmTC_812c4.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_812c4
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_812c4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getservbyname    CMakeFiles/cmTC_812c4.dir/CheckFunctionExistsEx.c.o  -o cmTC_812c4 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3de34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3de34.dir/build.make CMakeFiles/cmTC_3de34.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3de34.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_ntop   -o CMakeFiles/cmTC_3de34.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_3de34
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3de34.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_ntop    CMakeFiles/cmTC_3de34.dir/CheckFunctionExistsEx.c.o  -o cmTC_3de34 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3eef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3eef.dir/build.make CMakeFiles/cmTC_f3eef.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3eef.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_pton   -o CMakeFiles/cmTC_f3eef.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f3eef
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3eef.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=inet_pton    CMakeFiles/cmTC_f3eef.dir/CheckFunctionExistsEx.c.o  -o cmTC_f3eef -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71f26/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71f26.dir/build.make CMakeFiles/cmTC_71f26.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71f26.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTC_71f26.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_71f26
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f26.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTC_71f26.dir/CheckFunctionExistsEx.c.o  -o cmTC_71f26 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e1e1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1e1f.dir/build.make CMakeFiles/cmTC_e1e1f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1e1f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe   -o CMakeFiles/cmTC_e1e1f.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e1e1f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e1f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe    CMakeFiles/cmTC_e1e1f.dir/CheckFunctionExistsEx.c.o  -o cmTC_e1e1f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pipe2 exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abd8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abd8f.dir/build.make CMakeFiles/cmTC_abd8f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abd8f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe2   -o CMakeFiles/cmTC_abd8f.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_abd8f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd8f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pipe2    CMakeFiles/cmTC_abd8f.dir/CheckFunctionExistsEx.c.o  -o cmTC_abd8f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b35d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b35d.dir/build.make CMakeFiles/cmTC_3b35d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b35d.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_3b35d.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_3b35d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b35d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_3b35d.dir/CheckFunctionExistsEx.c.o  -o cmTC_3b35d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sendfile exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a840a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a840a.dir/build.make CMakeFiles/cmTC_a840a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a840a.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sendfile   -o CMakeFiles/cmTC_a840a.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_a840a
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a840a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sendfile    CMakeFiles/cmTC_a840a.dir/CheckFunctionExistsEx.c.o  -o cmTC_a840a -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dda3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dda3f.dir/build.make CMakeFiles/cmTC_dda3f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dda3f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_dda3f.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_dda3f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dda3f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_dda3f.dir/CheckFunctionExistsEx.c.o  -o cmTC_dda3f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0f12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0f12.dir/build.make CMakeFiles/cmTC_c0f12.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0f12.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_c0f12.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_c0f12
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0f12.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTC_c0f12.dir/CheckFunctionExistsEx.c.o  -o cmTC_c0f12 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function splice exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_785dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_785dc.dir/build.make CMakeFiles/cmTC_785dc.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_785dc.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=splice   -o CMakeFiles/cmTC_785dc.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_785dc
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_785dc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=splice    CMakeFiles/cmTC_785dc.dir/CheckFunctionExistsEx.c.o  -o cmTC_785dc -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsep exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce6c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce6c0.dir/build.make CMakeFiles/cmTC_ce6c0.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce6c0.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strsep   -o CMakeFiles/cmTC_ce6c0.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ce6c0
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6c0.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strsep    CMakeFiles/cmTC_ce6c0.dir/CheckFunctionExistsEx.c.o  -o cmTC_ce6c0 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtok_r exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbb55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbb55.dir/build.make CMakeFiles/cmTC_bbb55.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbb55.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTC_bbb55.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_bbb55
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb55.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtok_r    CMakeFiles/cmTC_bbb55.dir/CheckFunctionExistsEx.c.o  -o cmTC_bbb55 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63328/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63328.dir/build.make CMakeFiles/cmTC_63328.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63328.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_63328.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_63328
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63328.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTC_63328.dir/CheckFunctionExistsEx.c.o  -o cmTC_63328 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8617e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8617e.dir/build.make CMakeFiles/cmTC_8617e.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8617e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTC_8617e.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_8617e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8617e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=vasprintf    CMakeFiles/cmTC_8617e.dir/CheckFunctionExistsEx.c.o  -o cmTC_8617e -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysctl exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_039bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_039bb.dir/build.make CMakeFiles/cmTC_039bb.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_039bb.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sysctl   -o CMakeFiles/cmTC_039bb.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_039bb
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_039bb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=sysctl    CMakeFiles/cmTC_039bb.dir/CheckFunctionExistsEx.c.o  -o cmTC_039bb -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function accept4 exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11cff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11cff.dir/build.make CMakeFiles/cmTC_11cff.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11cff.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=accept4   -o CMakeFiles/cmTC_11cff.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_11cff
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11cff.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=accept4    CMakeFiles/cmTC_11cff.dir/CheckFunctionExistsEx.c.o  -o cmTC_11cff -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function epoll_create1 exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15efc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15efc.dir/build.make CMakeFiles/cmTC_15efc.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15efc.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create1   -o CMakeFiles/cmTC_15efc.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_15efc
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15efc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=epoll_create1    CMakeFiles/cmTC_15efc.dir/CheckFunctionExistsEx.c.o  -o cmTC_15efc -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getegid exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f36a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f36a4.dir/build.make CMakeFiles/cmTC_f36a4.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f36a4.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getegid   -o CMakeFiles/cmTC_f36a4.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f36a4
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f36a4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getegid    CMakeFiles/cmTC_f36a4.dir/CheckFunctionExistsEx.c.o  -o cmTC_f36a4 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function geteuid exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_623c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_623c4.dir/build.make CMakeFiles/cmTC_623c4.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_623c4.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=geteuid   -o CMakeFiles/cmTC_623c4.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_623c4
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_623c4.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=geteuid    CMakeFiles/cmTC_623c4.dir/CheckFunctionExistsEx.c.o  -o cmTC_623c4 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39f65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39f65.dir/build.make CMakeFiles/cmTC_39f65.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39f65.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTC_39f65.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_39f65
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f65.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=getifaddrs    CMakeFiles/cmTC_39f65.dir/CheckFunctionExistsEx.c.o  -o cmTC_39f65 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a2ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a2ab.dir/build.make CMakeFiles/cmTC_9a2ab.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a2ab.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_9a2ab.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_9a2ab
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a2ab.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTC_9a2ab.dir/CheckFunctionExistsEx.c.o  -o cmTC_9a2ab -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function usleep exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d5355/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5355.dir/build.make CMakeFiles/cmTC_d5355.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5355.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=usleep   -o CMakeFiles/cmTC_d5355.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d5355
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5355.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=usleep    CMakeFiles/cmTC_d5355.dir/CheckFunctionExistsEx.c.o  -o cmTC_d5355 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function timerfd_create exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b37e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b37e.dir/build.make CMakeFiles/cmTC_7b37e.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b37e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerfd_create   -o CMakeFiles/cmTC_7b37e.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_7b37e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b37e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerfd_create    CMakeFiles/cmTC_7b37e.dir/CheckFunctionExistsEx.c.o  -o cmTC_7b37e -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39e09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39e09.dir/build.make CMakeFiles/cmTC_39e09.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39e09.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_39e09.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_39e09
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e09.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=putenv    CMakeFiles/cmTC_39e09.dir/CheckFunctionExistsEx.c.o  -o cmTC_39e09 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1714e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1714e.dir/build.make CMakeFiles/cmTC_1714e.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1714e.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_1714e.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_1714e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1714e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTC_1714e.dir/CheckFunctionExistsEx.c.o  -o cmTC_1714e -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setrlimit exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_494dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_494dc.dir/build.make CMakeFiles/cmTC_494dc.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_494dc.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setrlimit   -o CMakeFiles/cmTC_494dc.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_494dc
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_494dc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=setrlimit    CMakeFiles/cmTC_494dc.dir/CheckFunctionExistsEx.c.o  -o cmTC_494dc -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function umask exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67010/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67010.dir/build.make CMakeFiles/cmTC_67010.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67010.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=umask   -o CMakeFiles/cmTC_67010.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_67010
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67010.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=umask    CMakeFiles/cmTC_67010.dir/CheckFunctionExistsEx.c.o  -o cmTC_67010 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9a92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9a92.dir/build.make CMakeFiles/cmTC_f9a92.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9a92.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_f9a92.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f9a92
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a92.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=unsetenv    CMakeFiles/cmTC_f9a92.dir/CheckFunctionExistsEx.c.o  -o cmTC_f9a92 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61b28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61b28.dir/build.make CMakeFiles/cmTC_61b28.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61b28.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTC_61b28.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_61b28
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b28.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=gethostbyname_r    CMakeFiles/cmTC_61b28.dir/CheckFunctionExistsEx.c.o  -o cmTC_61b28 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_6_ARG passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96ea1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96ea1.dir/build.make CMakeFiles/cmTC_96ea1.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96ea1.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_96ea1.dir/CheckPrototypeDefinition.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+Linking C executable cmTC_96ea1
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96ea1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_96ea1.dir/CheckPrototypeDefinition.c.o  -o cmTC_96ea1 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_977a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_977a3.dir/build.make CMakeFiles/cmTC_977a3.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_977a3.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_977a3.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_977a3
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_977a3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=select    CMakeFiles/cmTC_977a3.dir/CheckFunctionExistsEx.c.o  -o cmTC_977a3 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb188/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb188.dir/build.make CMakeFiles/cmTC_eb188.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb188.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_eb188.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb188
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb188.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_eb188.dir/CheckIncludeFile.c.o  -o cmTC_eb188 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79f86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79f86.dir/build.make CMakeFiles/cmTC_79f86.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79f86.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_79f86.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_79f86
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79f86.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_79f86.dir/CheckIncludeFile.c.o  -o cmTC_79f86 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58703/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58703.dir/build.make CMakeFiles/cmTC_58703.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58703.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_58703.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_58703
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58703.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_58703.dir/CheckIncludeFile.c.o  -o cmTC_58703 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5793a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5793a.dir/build.make CMakeFiles/cmTC_5793a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5793a.dir/EVENT__HAVE_UINT8_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5793a.dir/EVENT__HAVE_UINT8_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT8_T.c
+Linking C executable cmTC_5793a
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5793a.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5793a.dir/EVENT__HAVE_UINT8_T.c.o  -o cmTC_5793a -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a36b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a36b3.dir/build.make CMakeFiles/cmTC_a36b3.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a36b3.dir/EVENT__HAVE_UINT16_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a36b3.dir/EVENT__HAVE_UINT16_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT16_T.c
+Linking C executable cmTC_a36b3
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a36b3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_a36b3.dir/EVENT__HAVE_UINT16_T.c.o  -o cmTC_a36b3 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de3a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de3a3.dir/build.make CMakeFiles/cmTC_de3a3.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de3a3.dir/EVENT__HAVE_UINT32_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_de3a3.dir/EVENT__HAVE_UINT32_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT32_T.c
+Linking C executable cmTC_de3a3
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de3a3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_de3a3.dir/EVENT__HAVE_UINT32_T.c.o  -o cmTC_de3a3 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91643/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91643.dir/build.make CMakeFiles/cmTC_91643.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91643.dir/EVENT__HAVE_UINT64_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_91643.dir/EVENT__HAVE_UINT64_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINT64_T.c
+Linking C executable cmTC_91643
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91643.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_91643.dir/EVENT__HAVE_UINT64_T.c.o  -o cmTC_91643 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de3b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de3b5.dir/build.make CMakeFiles/cmTC_de3b5.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de3b5.dir/EVENT__SIZEOF_SHORT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_de3b5.dir/EVENT__SIZEOF_SHORT.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SHORT.c
+Linking C executable cmTC_de3b5
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de3b5.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_de3b5.dir/EVENT__SIZEOF_SHORT.c.o  -o cmTC_de3b5 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48a90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48a90.dir/build.make CMakeFiles/cmTC_48a90.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48a90.dir/EVENT__SIZEOF_INT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_48a90.dir/EVENT__SIZEOF_INT.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_INT.c
+Linking C executable cmTC_48a90
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48a90.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_48a90.dir/EVENT__SIZEOF_INT.c.o  -o cmTC_48a90 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fa0f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fa0f.dir/build.make CMakeFiles/cmTC_9fa0f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fa0f.dir/EVENT__SIZEOF_UNSIGNED.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9fa0f.dir/EVENT__SIZEOF_UNSIGNED.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED.c
+Linking C executable cmTC_9fa0f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa0f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_9fa0f.dir/EVENT__SIZEOF_UNSIGNED.c.o  -o cmTC_9fa0f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_827a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_827a1.dir/build.make CMakeFiles/cmTC_827a1.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_827a1.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_827a1.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_827a1
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_827a1.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_827a1.dir/EVENT__SIZEOF_UNSIGNED_INT.c.o  -o cmTC_827a1 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68356/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68356.dir/build.make CMakeFiles/cmTC_68356.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68356.dir/EVENT__SIZEOF_LONG.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_68356.dir/EVENT__SIZEOF_LONG.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG.c
+Linking C executable cmTC_68356
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68356.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_68356.dir/EVENT__SIZEOF_LONG.c.o  -o cmTC_68356 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf7fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf7fd.dir/build.make CMakeFiles/cmTC_bf7fd.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf7fd.dir/EVENT__SIZEOF_LONG_LONG.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_bf7fd.dir/EVENT__SIZEOF_LONG_LONG.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_LONG_LONG.c
+Linking C executable cmTC_bf7fd
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf7fd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_bf7fd.dir/EVENT__SIZEOF_LONG_LONG.c.o  -o cmTC_bf7fd -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5b77/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5b77.dir/build.make CMakeFiles/cmTC_e5b77.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b77.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DHAVE_INLINE   -o CMakeFiles/cmTC_e5b77.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e5b77
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5b77.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DHAVE_INLINE    CMakeFiles/cmTC_e5b77.dir/src.c.o  -o cmTC_e5b77 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Determining if the TAILQ_FOREACH exist passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbb37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbb37.dir/build.make CMakeFiles/cmTC_dbb37.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbb37.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_dbb37.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dbb37
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbb37.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_dbb37.dir/CheckSymbolExists.c.o  -o cmTC_dbb37 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/queue.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TAILQ_FOREACH
+  return ((int*)(&TAILQ_FOREACH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the F_SETFD exist passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbc22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbc22.dir/build.make CMakeFiles/cmTC_cbc22.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbc22.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_cbc22.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cbc22
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbc22.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_cbc22.dir/CheckSymbolExists.c.o  -o cmTC_cbc22 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETFD
+  return ((int*)(&F_SETFD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of fd_mask passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_176a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_176a7.dir/build.make CMakeFiles/cmTC_176a7.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_176a7.dir/EVENT__HAVE_FD_MASK.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_176a7.dir/EVENT__HAVE_FD_MASK.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.c
+Linking C executable cmTC_176a7
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_176a7.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_176a7.dir/EVENT__HAVE_FD_MASK.c.o  -o cmTC_176a7 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6266/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6266.dir/build.make CMakeFiles/cmTC_b6266.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6266.dir/EVENT__SIZEOF_SIZEE_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_b6266.dir/EVENT__SIZEOF_SIZEE_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SIZEE_T.c
+Linking C executable cmTC_b6266
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6266.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_b6266.dir/EVENT__SIZEOF_SIZEE_T.c.o  -o cmTC_b6266 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f39ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f39ac.dir/build.make CMakeFiles/cmTC_f39ac.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f39ac.dir/EVENT__SIZEOF_OFF_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f39ac.dir/EVENT__SIZEOF_OFF_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_OFF_T.c
+Linking C executable cmTC_f39ac
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39ac.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f39ac.dir/EVENT__SIZEOF_OFF_T.c.o  -o cmTC_f39ac -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fb00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fb00.dir/build.make CMakeFiles/cmTC_4fb00.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fb00.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_4fb00.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.c
+Linking C executable cmTC_4fb00
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb00.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_4fb00.dir/EVENT__SIZEOF_SSIZE_T_LOWER.c.o  -o cmTC_4fb00 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbdbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cbdbc.dir/build.make CMakeFiles/cmTC_cbdbc.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbdbc.dir/EVENT__SIZEOF_SOCKLEN_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_cbdbc.dir/EVENT__SIZEOF_SOCKLEN_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SOCKLEN_T.c
+Linking C executable cmTC_cbdbc
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdbc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_cbdbc.dir/EVENT__SIZEOF_SOCKLEN_T.c.o  -o cmTC_cbdbc -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c622/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c622.dir/build.make CMakeFiles/cmTC_5c622.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c622.dir/EVENT__SIZEOF_PID_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5c622.dir/EVENT__SIZEOF_PID_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.c
+Linking C executable cmTC_5c622
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c622.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5c622.dir/EVENT__SIZEOF_PID_T.c.o  -o cmTC_5c622 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of pthread_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f47a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f47a8.dir/build.make CMakeFiles/cmTC_f47a8.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f47a8.dir/EVENT__SIZEOF_PTHREAD_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f47a8.dir/EVENT__SIZEOF_PTHREAD_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.c
+Linking C executable cmTC_f47a8
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f47a8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f47a8.dir/EVENT__SIZEOF_PTHREAD_T.c.o  -o cmTC_f47a8 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f84ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f84ba.dir/build.make CMakeFiles/cmTC_f84ba.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f84ba.dir/EVENT__HAVE_UINTPTR_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f84ba.dir/EVENT__HAVE_UINTPTR_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_UINTPTR_T.c
+Linking C executable cmTC_f84ba
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84ba.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f84ba.dir/EVENT__HAVE_UINTPTR_T.c.o  -o cmTC_f84ba -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of void * passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bcf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bcf8.dir/build.make CMakeFiles/cmTC_2bcf8.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bcf8.dir/EVENT__SIZEOF_VOID_P.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_2bcf8.dir/EVENT__SIZEOF_VOID_P.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_VOID_P.c
+Linking C executable cmTC_2bcf8
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bcf8.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_2bcf8.dir/EVENT__SIZEOF_VOID_P.c.o  -o cmTC_2bcf8 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the _POSIX_SOURCE exist passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ee27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ee27.dir/build.make CMakeFiles/cmTC_7ee27.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ee27.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_7ee27.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7ee27
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ee27.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_7ee27.dir/CheckSymbolExists.c.o  -o cmTC_7ee27 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _POSIX_SOURCE
+  return ((int*)(&_POSIX_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f31d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f31d6.dir/build.make CMakeFiles/cmTC_f31d6.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f31d6.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_f31d6.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_ADDRINFO.c
+Linking C executable cmTC_f31d6
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31d6.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_f31d6.dir/EVENT__HAVE_STRUCT_ADDRINFO.c.o  -o cmTC_f31d6 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65efb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65efb.dir/build.make CMakeFiles/cmTC_65efb.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65efb.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_65efb.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_IN6_ADDR.c
+Linking C executable cmTC_65efb
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65efb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_65efb.dir/EVENT__HAVE_STRUCT_IN6_ADDR.c.o  -o cmTC_65efb -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_875a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_875a3.dir/build.make CMakeFiles/cmTC_875a3.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_875a3.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16   -o CMakeFiles/cmTC_875a3.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_875a3
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_875a3.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16    CMakeFiles/cmTC_875a3.dir/src.c.o  -o cmTC_875a3 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f53fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f53fd.dir/build.make CMakeFiles/cmTC_f53fd.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f53fd.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32   -o CMakeFiles/cmTC_f53fd.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f53fd
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f53fd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32    CMakeFiles/cmTC_f53fd.dir/src.c.o  -o cmTC_f53fd -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+   return 0;
+}
+
+Determining size of sa_family_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8934d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8934d.dir/build.make CMakeFiles/cmTC_8934d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8934d.dir/EVENT__HAVE_SA_FAMILY_T.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8934d.dir/EVENT__HAVE_SA_FAMILY_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.c
+Linking C executable cmTC_8934d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8934d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_8934d.dir/EVENT__HAVE_SA_FAMILY_T.c.o  -o cmTC_8934d -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c22e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c22e9.dir/build.make CMakeFiles/cmTC_c22e9.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c22e9.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c22e9.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+Linking C executable cmTC_c22e9
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c22e9.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_c22e9.dir/EVENT__HAVE_STRUCT_SOCKADDR_IN6.c.o  -o cmTC_c22e9 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e181/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e181.dir/build.make CMakeFiles/cmTC_5e181.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e181.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_5e181.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+Linking C executable cmTC_5e181
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e181.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_5e181.dir/EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c.o  -o cmTC_5e181 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41134/fast"
+/usr/bin/make -f CMakeFiles/cmTC_41134.dir/build.make CMakeFiles/cmTC_41134.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41134.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY   -o CMakeFiles/cmTC_41134.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41134
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41134.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY    CMakeFiles/cmTC_41134.dir/src.c.o  -o cmTC_41134 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+   return 0;
+}
+
+Determining size of struct linger passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e006b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e006b.dir/build.make CMakeFiles/cmTC_e006b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e006b.dir/EVENT__HAVE_STRUCT_LINGER.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_e006b.dir/EVENT__HAVE_STRUCT_LINGER.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__HAVE_STRUCT_LINGER.c
+Linking C executable cmTC_e006b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e006b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_e006b.dir/EVENT__HAVE_STRUCT_LINGER.c.o  -o cmTC_e006b -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fe6f/fast"
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9fe6f.dir/build.make CMakeFiles/cmTC_9fe6f.dir/build
+make[2]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fe6f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9fe6f.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9fe6f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fe6f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_9fe6f.dir/CheckIncludeFile.c.o  -o cmTC_9fe6f -rdynamic 
+make[2]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f808/fast"
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f808.dir/build.make CMakeFiles/cmTC_5f808.dir/build
+make[2]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f808.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f808.dir/CheckFunctionExists.c.o   -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f808
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f808.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5f808.dir/CheckFunctionExists.c.o  -o cmTC_5f808 -rdynamic -lpthread 
+make[2]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f1a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f1a9.dir/build.make CMakeFiles/cmTC_8f1a9.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f1a9.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles/cmTC_8f1a9.dir/OFF64_T.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_8f1a9
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f1a9.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8f1a9.dir/OFF64_T.c.o  -o cmTC_8f1a9 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_234f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_234f0.dir/build.make CMakeFiles/cmTC_234f0.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_234f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_234f0.dir/CheckFunctionExists.c.o   -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_234f0
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_234f0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_234f0.dir/CheckFunctionExists.c.o  -o cmTC_234f0 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1321f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1321f.dir/build.make CMakeFiles/cmTC_1321f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1321f.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1321f.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1321f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1321f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1321f.dir/CheckIncludeFile.c.o  -o cmTC_1321f -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

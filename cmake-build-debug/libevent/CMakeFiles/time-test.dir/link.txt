@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -g   CMakeFiles/time-test.dir/sample/time-test.c.o  -o bin/time-test -rdynamic lib/libevent_extra.a -lpthread ../zlib/libz.so.1.2.11 -lm -Wl,-rpath,/home/jack/CLionProjects/WebServer/cmake-build-debug/zlib 

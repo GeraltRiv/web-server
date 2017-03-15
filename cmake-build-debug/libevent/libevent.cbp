@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libevent"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\zlib\;CMake Files\libevent\;CMake Files\libevent\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-dumpevents">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-dumpevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-dumpevents"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-dumpevents/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-dumpevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-dumpevents/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-fdleak">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-fdleak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-fdleak"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-fdleak/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-fdleak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-fdleak/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-changelist">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-changelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-changelist"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-changelist/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-changelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-changelist/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_http">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_http"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_http/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_http/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_cascade">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_cascade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_cascade"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_cascade/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_cascade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_cascade/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-weof">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-weof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-weof"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-weof/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-weof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-weof/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-eof">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-eof"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-eof/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-eof" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-eof/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event-read-fifo">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/event-read-fifo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event-read-fifo"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event-read-fifo/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/event-read-fifo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event-read-fifo/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent_extra.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event_extra"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_extra/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent_extra.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event_extra/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regress">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/regress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEVENT_BUILDING_REGRESS_TEST=1"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 regress"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="regress/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/regress" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DEVENT_BUILDING_REGRESS_TEST=1"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 regress/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event_core"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event_core/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent_core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event_core/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time-test">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/time-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 time-test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="time-test/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/time-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 time-test/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_httpclient">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_httpclient"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bench_httpclient/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/bench_httpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 bench_httpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns-example">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/dns-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 dns-example"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dns-example/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/dns-example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 dns-example/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-test">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/signal-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 signal-test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal-test/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/signal-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 signal-test/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 hello-world"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello-world/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/hello-world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 hello-world/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-time">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-time"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-time/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-time/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-connect">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/http-connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 http-connect"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-connect/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/http-connect" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 http-connect/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-server">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/http-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 http-server"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http-server/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/http-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 http-server/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ratelim">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-ratelim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-ratelim"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-ratelim/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-ratelim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-ratelim/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="verify">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 verify"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="event/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/lib/libevent.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 event/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-init">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-init"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-init/fast">
+				<Option output="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin/test-init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DTINYTEST_LOCAL"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/include"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/compat"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent"/>
+					<Add directory="/home/jack/CLionProjects/WebServer/libevent/zlib"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 test-init/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jack/CLionProjects/WebServer/cmake-build-debug/libevent/include/event2/event-config.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/buffer.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent_filter.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent_pair.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent_ratelim.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/bufferevent_sock.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/changelist-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/compat/sys/queue.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/defer-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/epoll.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/epoll_sub.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/epolltable-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evbuffer-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evconfig-private.h.in">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evdns.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event_tagging.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evmap-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evmap.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evrpc-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evrpc.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evsignal-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evthread-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evthread.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evthread_pthread.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evutil.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evutil_rand.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evutil_time.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/ht-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/http-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/http.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/evdns.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/buffer.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/buffer_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/bufferevent.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/bufferevent_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/bufferevent_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/dns.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/dns_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/dns_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/event.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/event_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/event_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/http.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/http_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/http_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/keyvalq_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/listener.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/rpc.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/rpc_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/rpc_struct.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/tag.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/tag_compat.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/thread.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/util.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/event2/visibility.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/evhttp.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/evrpc.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/include/evutil.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/iocp-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/ipv6-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/listener.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/log-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/log.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/minheap-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/mm-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/poll.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/ratelim-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/dns-example.c">
+			<Option target="dns-example"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/event-read-fifo.c">
+			<Option target="event-read-fifo"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/hello-world.c">
+			<Option target="hello-world"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/http-connect.c">
+			<Option target="http-connect"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/http-server.c">
+			<Option target="http-server"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/signal-test.c">
+			<Option target="signal-test"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/sample/time-test.c">
+			<Option target="time-test"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/select.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/signal.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/strlcpy-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/strlcpy.c">
+			<Option target="event_extra"/>
+			<Option target="regress"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/bench.c">
+			<Option target="bench"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/bench_cascade.c">
+			<Option target="bench_cascade"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/bench_http.c">
+			<Option target="bench_http"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/bench_httpclient.c">
+			<Option target="bench_httpclient"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_buffer.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_bufferevent.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_dns.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_et.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_finalize.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_http.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_listener.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_main.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_minheap.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_rpc.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_testutils.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_testutils.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_thread.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_thread.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_util.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/regress_zlib.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-changelist.c">
+			<Option target="test-changelist"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-dumpevents.c">
+			<Option target="test-dumpevents"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-eof.c">
+			<Option target="test-eof"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-fdleak.c">
+			<Option target="test-fdleak"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-init.c">
+			<Option target="test-init"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-ratelim.c">
+			<Option target="test-ratelim"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-time.c">
+			<Option target="test-time"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/test-weof.c">
+			<Option target="test-weof"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/tinytest.c">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/test/tinytest.h">
+			<Option target="regress"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/util-internal.h">
+			<Option target="event_extra"/>
+			<Option target="event_core"/>
+			<Option target="event"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\zlib\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/event-config.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/evconfig-private.h.cmake">
+			<Option virtualFolder="CMake Files\libevent\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckWaitpidSupportWNOWAIT.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigBuildTree.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFileOffsetBits.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckPrototypeDefinition.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionKeywords.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/AddCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/VersionViaGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/FindGit.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/CheckWaitpidSupportWNOWAIT.cmake">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigBuildTree.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/WebServer/libevent/cmake/LibeventConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\libevent\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,883 @@
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae93b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae93b.dir/build.make CMakeFiles/cmTC_ae93b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae93b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ae93b.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: netinet/in6.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_ae93b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ae93b.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ae93b.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ae93b/fast' failed
+make: *** [cmTC_ae93b/fast] Error 2
+
+
+Determining if the include file port.h exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_087cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_087cd.dir/build.make CMakeFiles/cmTC_087cd.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_087cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_087cd.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: port.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_087cd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_087cd.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_087cd.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_087cd/fast' failed
+make: *** [cmTC_087cd/fast] Error 2
+
+
+Determining if the include file sys/devpoll.h exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1c99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1c99.dir/build.make CMakeFiles/cmTC_d1c99.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1c99.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_d1c99.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/devpoll.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d1c99.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d1c99.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d1c99.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d1c99/fast' failed
+make: *** [cmTC_d1c99/fast] Error 2
+
+
+Determining if the include file sys/event.h exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7621/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7621.dir/build.make CMakeFiles/cmTC_a7621.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7621.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_a7621.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: fatal error: sys/event.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a7621.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a7621.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a7621.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a7621/fast' failed
+make: *** [cmTC_a7621/fast] Error 2
+
+
+Determining if the include file mach/mach_time.h exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86953/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86953.dir/build.make CMakeFiles/cmTC_86953.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86953.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_86953.dir/CheckIncludeFile.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: mach/mach_time.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_86953.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_86953.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_86953.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_86953/fast' failed
+make: *** [cmTC_86953/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8105/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8105.dir/build.make CMakeFiles/cmTC_c8105.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8105.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_c8105.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_c8105
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8105.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_c8105.dir/CheckFunctionExistsEx.c.o  -o cmTC_c8105 -rdynamic 
+CMakeFiles/cmTC_c8105.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c8105.dir/build.make:97: recipe for target 'cmTC_c8105' failed
+make[1]: *** [cmTC_c8105] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c8105/fast' failed
+make: *** [cmTC_c8105/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f455f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f455f.dir/build.make CMakeFiles/cmTC_f455f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f455f.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTC_f455f.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_f455f
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f455f.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTC_f455f.dir/CheckFunctionExistsEx.c.o  -o cmTC_f455f -rdynamic 
+CMakeFiles/cmTC_f455f.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `port_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f455f.dir/build.make:97: recipe for target 'cmTC_f455f' failed
+make[1]: *** [cmTC_f455f] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f455f/fast' failed
+make: *** [cmTC_f455f/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe882/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe882.dir/build.make CMakeFiles/cmTC_fe882.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe882.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTC_fe882.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_fe882
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe882.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTC_fe882.dir/CheckFunctionExistsEx.c.o  -o cmTC_fe882 -rdynamic 
+CMakeFiles/cmTC_fe882.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fe882.dir/build.make:97: recipe for target 'cmTC_fe882' failed
+make[1]: *** [cmTC_fe882] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fe882/fast' failed
+make: *** [cmTC_fe882/fast] Error 2
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aefca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aefca.dir/build.make CMakeFiles/cmTC_aefca.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aefca.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random   -o CMakeFiles/cmTC_aefca.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_aefca
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefca.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random    CMakeFiles/cmTC_aefca.dir/CheckFunctionExistsEx.c.o  -o cmTC_aefca -rdynamic 
+CMakeFiles/cmTC_aefca.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `arc4random'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aefca.dir/build.make:97: recipe for target 'cmTC_aefca' failed
+make[1]: *** [cmTC_aefca] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aefca/fast' failed
+make: *** [cmTC_aefca/fast] Error 2
+
+
+Determining if the function arc4random_buf exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0c9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0c9d.dir/build.make CMakeFiles/cmTC_d0c9d.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0c9d.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random_buf   -o CMakeFiles/cmTC_d0c9d.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_d0c9d
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c9d.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=arc4random_buf    CMakeFiles/cmTC_d0c9d.dir/CheckFunctionExistsEx.c.o  -o cmTC_d0c9d -rdynamic 
+CMakeFiles/cmTC_d0c9d.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `arc4random_buf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d0c9d.dir/build.make:97: recipe for target 'cmTC_d0c9d' failed
+make[1]: *** [cmTC_d0c9d] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d0c9d/fast' failed
+make: *** [cmTC_d0c9d/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59b1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59b1b.dir/build.make CMakeFiles/cmTC_59b1b.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59b1b.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTC_59b1b.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_59b1b
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59b1b.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTC_59b1b.dir/CheckFunctionExistsEx.c.o  -o cmTC_59b1b -rdynamic 
+CMakeFiles/cmTC_59b1b.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_59b1b.dir/build.make:97: recipe for target 'cmTC_59b1b' failed
+make[1]: *** [cmTC_59b1b] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_59b1b/fast' failed
+make: *** [cmTC_59b1b/fast] Error 2
+
+
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f0bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f0bd.dir/build.make CMakeFiles/cmTC_2f0bd.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f0bd.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mach_absolute_time   -o CMakeFiles/cmTC_2f0bd.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_2f0bd
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f0bd.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=mach_absolute_time    CMakeFiles/cmTC_2f0bd.dir/CheckFunctionExistsEx.c.o  -o cmTC_2f0bd -rdynamic 
+CMakeFiles/cmTC_2f0bd.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2f0bd.dir/build.make:97: recipe for target 'cmTC_2f0bd' failed
+make[1]: *** [cmTC_2f0bd] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f0bd/fast' failed
+make: *** [cmTC_2f0bd/fast] Error 2
+
+
+Determining if the function timeradd exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e09cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e09cc.dir/build.make CMakeFiles/cmTC_e09cc.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e09cc.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timeradd   -o CMakeFiles/cmTC_e09cc.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_e09cc
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e09cc.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timeradd    CMakeFiles/cmTC_e09cc.dir/CheckFunctionExistsEx.c.o  -o cmTC_e09cc -rdynamic 
+CMakeFiles/cmTC_e09cc.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timeradd'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e09cc.dir/build.make:97: recipe for target 'cmTC_e09cc' failed
+make[1]: *** [cmTC_e09cc] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e09cc/fast' failed
+make: *** [cmTC_e09cc/fast] Error 2
+
+
+Determining if the function timerclear exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccf28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccf28.dir/build.make CMakeFiles/cmTC_ccf28.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccf28.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerclear   -o CMakeFiles/cmTC_ccf28.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ccf28
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccf28.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerclear    CMakeFiles/cmTC_ccf28.dir/CheckFunctionExistsEx.c.o  -o cmTC_ccf28 -rdynamic 
+CMakeFiles/cmTC_ccf28.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timerclear'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ccf28.dir/build.make:97: recipe for target 'cmTC_ccf28' failed
+make[1]: *** [cmTC_ccf28] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccf28/fast' failed
+make: *** [cmTC_ccf28/fast] Error 2
+
+
+Determining if the function timercmp exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d4cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d4cb.dir/build.make CMakeFiles/cmTC_2d4cb.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d4cb.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timercmp   -o CMakeFiles/cmTC_2d4cb.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_2d4cb
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d4cb.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timercmp    CMakeFiles/cmTC_2d4cb.dir/CheckFunctionExistsEx.c.o  -o cmTC_2d4cb -rdynamic 
+CMakeFiles/cmTC_2d4cb.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timercmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2d4cb.dir/build.make:97: recipe for target 'cmTC_2d4cb' failed
+make[1]: *** [cmTC_2d4cb] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2d4cb/fast' failed
+make: *** [cmTC_2d4cb/fast] Error 2
+
+
+Determining if the function timerisset exists failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee33c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee33c.dir/build.make CMakeFiles/cmTC_ee33c.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee33c.dir/CheckFunctionExistsEx.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerisset   -o CMakeFiles/cmTC_ee33c.dir/CheckFunctionExistsEx.c.o   -c /home/jack/CLionProjects/WebServer/libevent/cmake/CheckFunctionExistsEx.c
+Linking C executable cmTC_ee33c
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee33c.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=timerisset    CMakeFiles/cmTC_ee33c.dir/CheckFunctionExistsEx.c.o  -o cmTC_ee33c -rdynamic 
+CMakeFiles/cmTC_ee33c.dir/CheckFunctionExistsEx.c.o: In function `main':
+CheckFunctionExistsEx.c:(.text+0x15): undefined reference to `timerisset'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ee33c.dir/build.make:97: recipe for target 'cmTC_ee33c' failed
+make[1]: *** [cmTC_ee33c] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ee33c/fast' failed
+make: *** [cmTC_ee33c/fast] Error 2
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_3_ARG failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8beb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8beb6.dir/build.make CMakeFiles/cmTC_8beb6.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8beb6.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_8beb6.dir/CheckPrototypeDefinition.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:66: warning: ‘struct hostent_data’ declared inside parameter list
+ int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+                                                                  ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:66: warning: its scope is only this definition or declaration, which is probably not what you want
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:5: error: conflicting types for ‘gethostbyname_r’
+ int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+     ^
+In file included from /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:0:
+/usr/include/netdb.h:179:12: note: previous declaration of ‘gethostbyname_r’ was here
+ extern int gethostbyname_r (const char *__restrict __name,
+            ^
+CMakeFiles/cmTC_8beb6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8beb6.dir/CheckPrototypeDefinition.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8beb6.dir/CheckPrototypeDefinition.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8beb6/fast' failed
+make: *** [cmTC_8beb6/fast] Error 2
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+int gethostbyname_r(const char *name, struct hostent *hp, struct hostent_data *hdata) {
+  return 0;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Determining if the prototype gethostbyname_r exists for EVENT__HAVE_GETHOSTBYNAME_R_5_ARG failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c356f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c356f.dir/build.make CMakeFiles/cmTC_c356f.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c356f.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_c356f.dir/CheckPrototypeDefinition.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:14:17: error: conflicting types for ‘gethostbyname_r’
+ struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+                 ^
+In file included from /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:0:
+/usr/include/netdb.h:179:12: note: previous declaration of ‘gethostbyname_r’ was here
+ extern int gethostbyname_r (const char *__restrict __name,
+            ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c: In function ‘gethostbyname_r’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:15:10: error: ‘NULL’ undeclared (first use in this function)
+   return NULL;
+          ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:15:10: note: each undeclared identifier is reported only once for each function it appears in
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+CMakeFiles/cmTC_c356f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c356f.dir/CheckPrototypeDefinition.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c356f.dir/CheckPrototypeDefinition.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c356f/fast' failed
+make: *** [cmTC_c356f/fast] Error 2
+
+
+#include <netdb.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef gethostbyname_r
+  cmakeRequireSymbol(0, &gethostbyname_r);
+#endif
+}
+
+struct hostent *gethostbyname_r(const char *name, struct hostent *hp, char *buf, size_t buflen, int *herr) {
+  return NULL;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Determining if the CTL_KERN exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28851/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28851.dir/build.make CMakeFiles/cmTC_28851.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28851.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_28851.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&CTL_KERN))[argc];
+                  ^
+CMakeFiles/cmTC_28851.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_28851.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_28851.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_28851/fast' failed
+make: *** [cmTC_28851/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CTL_KERN
+  return ((int*)(&CTL_KERN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the KERN_ARND exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edb9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edb9a.dir/build.make CMakeFiles/cmTC_edb9a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_edb9a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_edb9a.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘KERN_ARND’ undeclared (first use in this function)
+   return ((int*)(&KERN_ARND))[argc];
+                   ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_edb9a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_edb9a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_edb9a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_edb9a/fast' failed
+make: *** [cmTC_edb9a/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef KERN_ARND
+  return ((int*)(&KERN_ARND))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the KERN_RANDOM exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b602/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b602.dir/build.make CMakeFiles/cmTC_2b602.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b602.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_2b602.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&KERN_RANDOM))[argc];
+                  ^
+CMakeFiles/cmTC_2b602.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2b602.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2b602.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2b602/fast' failed
+make: *** [cmTC_2b602/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef KERN_RANDOM
+  return ((int*)(&KERN_RANDOM))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the RANDOM_UUID exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9be53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9be53.dir/build.make CMakeFiles/cmTC_9be53.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9be53.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_9be53.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:18: error: lvalue required as unary ‘&’ operand
+   return ((int*)(&RANDOM_UUID))[argc];
+                  ^
+CMakeFiles/cmTC_9be53.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9be53.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9be53.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9be53/fast' failed
+make: *** [cmTC_9be53/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef RANDOM_UUID
+  return ((int*)(&RANDOM_UUID))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of SSIZE_T failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40dff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40dff.dir/build.make CMakeFiles/cmTC_40dff.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40dff.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_40dff.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:22:22: error: ‘SSIZE_T’ undeclared here (not in a function)
+ #define SIZE (sizeof(SSIZE_T))
+                      ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:24:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_40dff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_40dff.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_40dff.dir/EVENT__SIZEOF_SSIZE_T_UPPER.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40dff/fast' failed
+make: *** [cmTC_40dff/fast] Error 2
+
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_UPPER.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+#include "sys/socket.h"
+#include "netinet/in.h"
+#include "fcntl.h"
+#include "sys/time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(SSIZE_T))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_WAITPID_WITH_WNOWAIT failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1644/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1644.dir/build.make CMakeFiles/cmTC_d1644.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1644.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_WAITPID_WITH_WNOWAIT   -o CMakeFiles/cmTC_d1644.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d1644
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1644.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_WAITPID_WITH_WNOWAIT    CMakeFiles/cmTC_d1644.dir/src.c.o  -o cmTC_d1644 -rdynamic 
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <stdlib.h>
+
+int
+main(int argc, char** argv)
+{
+    pid_t pid;
+    int status;
+    if ((pid = fork()) == 0) _exit(0);
+    _exit(waitpid(pid, &status, WNOWAIT) == -1);
+}
+Determining if the _MINIX exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31676/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31676.dir/build.make CMakeFiles/cmTC_31676.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31676.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_31676.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_MINIX’ undeclared (first use in this function)
+   return ((int*)(&_MINIX))[argc];
+                   ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_31676.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_31676.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_31676.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_31676/fast' failed
+make: *** [cmTC_31676/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _MINIX
+  return ((int*)(&_MINIX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _POSIX_1_SOURCE exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ede0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ede0a.dir/build.make CMakeFiles/cmTC_ede0a.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ede0a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_ede0a.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_POSIX_1_SOURCE’ undeclared (first use in this function)
+   return ((int*)(&_POSIX_1_SOURCE))[argc];
+                   ^
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_ede0a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ede0a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_ede0a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ede0a/fast' failed
+make: *** [cmTC_ede0a/fast] Error 2
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _POSIX_1_SOURCE
+  return ((int*)(&_POSIX_1_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02620/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02620.dir/build.make CMakeFiles/cmTC_02620.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02620.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTC_02620.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:43: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+                                           ^
+CMakeFiles/cmTC_02620.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_02620.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_02620.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02620/fast' failed
+make: *** [cmTC_02620/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_036e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_036e9.dir/build.make CMakeFiles/cmTC_036e9.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_036e9.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTC_036e9.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:43: error: ‘struct sockaddr_in6’ has no member named ‘sin_len’
+    (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+                                           ^
+CMakeFiles/cmTC_036e9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_036e9.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_036e9.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_036e9/fast' failed
+make: *** [cmTC_036e9/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+   return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e7b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e7b9.dir/build.make CMakeFiles/cmTC_3e7b9.dir/build
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e7b9.dir/src.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DEVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY   -o CMakeFiles/cmTC_3e7b9.dir/src.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:8:47: error: ‘struct sockaddr_storage’ has no member named ‘__ss_family’
+    (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+                                               ^
+CMakeFiles/cmTC_3e7b9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3e7b9.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3e7b9.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3e7b9/fast' failed
+make: *** [cmTC_3e7b9/fast] Error 2
+
+Source file was:
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+   return 0;
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98d47/fast"
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_98d47.dir/build.make CMakeFiles/cmTC_98d47.dir/build
+make[2]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98d47.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing    -o CMakeFiles/cmTC_98d47.dir/CheckSymbolExists.c.o   -c /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_98d47
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98d47.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing     CMakeFiles/cmTC_98d47.dir/CheckSymbolExists.c.o  -o cmTC_98d47 -rdynamic 
+CMakeFiles/cmTC_98d47.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_98d47.dir/build.make:97: recipe for target 'cmTC_98d47' failed
+make[2]: *** [cmTC_98d47] Error 1
+make[2]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_98d47/fast' failed
+make[1]: *** [cmTC_98d47/fast] Error 2
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+File /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9da1e/fast"
+make[1]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9da1e.dir/build.make CMakeFiles/cmTC_9da1e.dir/build
+make[2]: Entering directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9da1e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9da1e.dir/CheckFunctionExists.c.o   -c /home/jack/Documents/clion-2016.3.2/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9da1e
+/home/jack/Documents/clion-2016.3.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9da1e.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -Wswitch -fno-strict-aliasing -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9da1e.dir/CheckFunctionExists.c.o  -o cmTC_9da1e -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9da1e.dir/build.make:97: recipe for target 'cmTC_9da1e' failed
+make[2]: *** [cmTC_9da1e] Error 1
+make[2]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9da1e/fast' failed
+make[1]: *** [cmTC_9da1e/fast] Error 2
+make[1]: Leaving directory '/home/jack/CLionProjects/WebServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
